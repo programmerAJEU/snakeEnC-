@@ -1,0 +1,187 @@
+﻿body {
+    font-size: 20px;
+    background-color: #EBEDF0;
+}
+
+@media (max-width: 310px) {
+    .smallFont {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 219px) {
+    div.Avoid {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 60px;
+        word-wrap: break-word;
+    }
+}
+
+@media (min-width: 1200px) {
+    .lgcb {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+
+.Home:hover {
+    background-color: #B25A59;
+}
+
+.Send:hover {
+    background-color: #2B7E6F;
+}
+
+.headerTextColor {
+    color: #142667;
+}
+
+.headerBackground {
+    background-color: #ffffff;
+}
+
+.headerText {
+    color: #524f4f;
+    font-size: 15px;
+}
+
+.headerText2 {
+    color: white;
+    width: 5px;
+}
+
+div.JoinDiv {
+    display: inline-block;
+}
+
+div.JoinDiv2 {
+    display: inline-block;
+}
+
+div.JoinDiv3 {
+    display: inline-block;
+}
+
+.ButtonRegister {
+    background-color: #F0AD4E;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23px;
+}
+
+.ButtonSesion {
+    background-color: #5CB85C;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23px;
+}
+
+.tableStyle {
+    margin-top: 30px;
+    font-size: 15px;
+    color: #808080;
+    background-color: white;
+    font-family: 'HP Simplified';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.backgroundFirst {
+    background-color: #349C89;
+    height: 5px;
+}
+
+.background {
+    background: #4cff00;
+}
+
+.background1 {
+    background-color: #DFDEDE;
+    height: 5px;
+}
+
+.fontTittle {
+    font-family: Cooper;
+}
+
+.Body {
+    background-color: white;
+}
+
+.comboBoxHover::-moz-selection {
+    background-color: dodgerblue;
+    color: aqua;
+}
+
+.stateComboBox {
+    width: 100%;
+    background-color: white;
+    border-width: 1px;
+    border-color: #CDCBCE;
+    border-radius: 3px;
+    color: #524f4f;
+}
+
+.txbs {
+    width: 100%;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #CDCBCE;
+}
+
+.fn {
+    font-family: 'HP Simplified';
+    color: #808080;
+    font-size: 15px;
+}
+
+.txtBoxR {
+    width: 100%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #CDCBCE;
+}
+
+::placeholder {
+    color: #808080;
+    font-size: 15px;
+    font-family: Calibri;
+}
+
+.home {
+    background-color: #CC6765;
+    width: 166px;
+    background-image: url(Images/home.png);
+    background-size: cover;
+    border-style: none;
+    height: 99px;
+    border-radius: 5px;
+}
+
+.send {
+    background-color: #349C89;
+    width: 166px;
+    background-image: url(Images/airplane.png);
+    background-size: cover;
+    border-style: none;
+    height: 99px;
+    border-radius: 5px;
+}
+.grid {
+    font-family: Calibri;
+    font-size: 15px;
+    font-style: normal;
+    border: none;
+    border-color: #808080;
+    background-color: #0D216A;
+}
+.linkS:hover{
+    color: red;
+}
